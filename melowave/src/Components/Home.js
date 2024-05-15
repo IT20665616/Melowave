@@ -7,6 +7,13 @@ import appImg from './../assets/img/mobileApps.png';
 import feelingImg from './../assets/img/effectOfFeelings.png';
 import obj from './../assets/img/obj.webp';
 import feature1 from './../assets/img/features-1.jpg';
+import colab from './../assets/img/colab.png';
+import flutter from './../assets/img/flutter.png';
+import kaggle from './../assets/img/kaggle.png';
+import vsCode from './../assets/img/vsCode.jpeg';
+import python from './../assets/img/python.webp';
+import swagger from './../assets/img/swagger.png';
+import firebase from './../assets/img/firebase.png';
 
 
 function Home() {
@@ -188,33 +195,6 @@ function Home() {
 
             {/* ************************************************************ */}
 
-            <section id="researchProblem" class="features-details section">
-                <div class="container">
-                    <div class="row gy-4 justify-content-between features-item">
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                            <img src={feature1} class="img-fluid" alt="" />
-                        </div>
-                        <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-                            <div class="content">
-                                <h3>Research Problem</h3>
-                                <p>
-                                    The research problem at hand is to explore the development of music recommendation systems that transcend
-                                    conventional approaches by seamlessly integrating real-time environmental factors, user preferences, and
-                                    post-listening emotional states. This entails leveraging cutting-edge technologies such as deep learning,
-                                    computer vision, and audio classification to create personalized recommendations tailored to individual moods,
-                                    surroundings, and emotional responses. This research seeks to bridge
-                                    the gap between existing methods and user-centric needs, paving the way for a new generation of music recommendation
-                                    systems that not only understand users' music tastes but also adapt to their unique contexts in real-time, thereby
-                                    enriching user engagement and satisfaction with music streaming applications.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            {/* ************************************************** */}
 
             <section id="objectives" class="more-features section">
                 <div class="container">
@@ -261,6 +241,70 @@ function Home() {
 
                         <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
                             <img src={obj} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* ***************************************************** */}
+
+            <section id="researchProblem" class="features-details section">
+                <div class="container">
+                    <div class="row gy-4 justify-content-between features-item">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <img src={feature1} class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                            <div class="content">
+                                <h3>Research Problem</h3>
+                                <p>
+                                    The research problem at hand is to explore the development of music recommendation systems that transcend
+                                    conventional approaches by seamlessly integrating real-time environmental factors, user preferences, and
+                                    post-listening emotional states. This entails leveraging cutting-edge technologies such as deep learning,
+                                    computer vision, and audio classification to create personalized recommendations tailored to individual moods,
+                                    surroundings, and emotional responses. This research seeks to bridge
+                                    the gap between existing methods and user-centric needs, paving the way for a new generation of music recommendation
+                                    systems that not only understand users' music tastes but also adapt to their unique contexts in real-time, thereby
+                                    enriching user engagement and satisfaction with music streaming applications.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* ************************************************** */}
+
+           
+
+            <section id="tools" class="clients section ">
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Tools and Technologies</h2>
+                    <div class="row gy-4">
+                        <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src={colab} class="img-fluid" alt="" />
+                        </div>
+
+                        <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src={python} class="img-fluid" alt="" />
+                        </div>
+
+                        <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src={kaggle} class="img-fluid" alt="" />
+                        </div>
+
+                        <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src={flutter} class="img-fluid" alt="" />
+                        </div>
+
+                        <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src={swagger} class="img-fluid" alt="" />
+                        </div>
+
+                        <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src={firebase} class="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>

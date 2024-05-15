@@ -1142,7 +1142,7 @@ section,
   max-width: 90%;
   transition: 0.3s;
   opacity: 0.5;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 
 .clients .client-logo img:hover {
