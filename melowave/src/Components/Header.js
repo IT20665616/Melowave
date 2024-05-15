@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../assets/css/main.css';
 import logo from './../assets/img/logo.png';
+import Footer from './Footer';
 
 
 function Header() {
@@ -44,6 +45,8 @@ function Header() {
 
                 </div>
             </header>
+
+            <Footer/>
         </>
     );
 }
