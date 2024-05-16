@@ -46,7 +46,6 @@ function Header() {
                 </div>
             </header>
 
-            <Footer/>
         </>
     );
 }

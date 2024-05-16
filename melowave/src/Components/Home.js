@@ -71,8 +71,8 @@ function Home() {
                             <br />
                         </p>
                         <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                            <a href="#ls" class="btn-get-started">Get Started</a>
-                            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                            <a href="/docs" class="btn-get-started">Download Documents</a>
+                            {/* <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> */}
                         </div>
                         {/* <img src={heroImg} class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300"/> */}
                     </div>
@@ -242,7 +242,7 @@ function Home() {
                         </div>
 
                         <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-                            <img src={obj} alt="" />
+                            {/* <img src={obj} alt="" /> */}
                         </div>
                     </div>
                 </div>

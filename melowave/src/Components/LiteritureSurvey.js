@@ -4,6 +4,8 @@ import './../assets/css/main.css';
 import Header from './Header';
 import appImg from './../assets/img/mobileApps.png';
 import feelingImg from './../assets/img/effectOfFeelings.png';
+import Footer from './Footer';
+
 
 function LiteritureSurvey() {
     return (
@@ -76,6 +78,8 @@ function LiteritureSurvey() {
                 </div>
 
             </section>
+
+            <Footer/>
 
         </>
     );

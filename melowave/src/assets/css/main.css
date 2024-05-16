@@ -11,6 +11,8 @@
   /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
   --background-color: #ffffff;
 
+  --background-color-footer: #fdf3f7;
+
   /* Default Color - This is the default color used for the majority of the text content. */
   --default-color: #3d4348;
 
@@ -486,7 +488,7 @@ h6 {
 .footer {
   --background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: var(--background-color-footer);
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;

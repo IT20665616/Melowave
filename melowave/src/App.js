@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";// import-react-
 import Header from "./Components/Header";
 import LiteritureSurvey from "./Components/LiteritureSurvey";
 import Home from "./Components/Home";
+import Docs from "./Components/Documents";
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/header" element={<Header />} />
       <Route path="/ls" element={<LiteritureSurvey />} />
+      <Route path="/docs" element={<Docs />} />
         
 
 
