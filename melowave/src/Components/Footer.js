@@ -4,6 +4,8 @@ import './../assets/css/main.css';
 import Header from './Header';
 import appImg from './../assets/img/mobileApps.png';
 import feelingImg from './../assets/img/effectOfFeelings.png';
+import logo from './../assets/img/logo.png';
+
 
 function Footer() {
     return (
@@ -12,15 +14,16 @@ function Footer() {
 
                 <div class="container footer-top">
                     <div class="row gy-4">
-                        <div class="col-lg-4 col-md-6 footer-about">
+                        <div class="col-lg-8 col-md-6 footer-about">
                             <a href="index.html" class="logo d-flex align-items-center">
-                                <span class="sitename">QuickStart</span>
+                                <img src={logo} alt="" />
+                                <span class="sitename">MeloWave</span>
                             </a>
                             <div class="footer-contact pt-3">
-                                <p>A108 Adam Street</p>
-                                <p>New York, NY 535022</p>
-                                <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                                <p><strong>Email:</strong> <span>info@example.com</span></p>
+                                <p>SLIIT Malabe Campus, </p>
+                                <p>New Kandy Rd, Malabe 10115</p>
+                                <p class="mt-3"><strong>Phone:</strong> <span>+94 11 754 4801</span></p>
+                                <p><strong>Email:</strong> <span>info@sliit.com</span></p>
                             </div>
                             <div class="social-links d-flex mt-4">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -33,50 +36,40 @@ function Footer() {
                         <div class="col-lg-2 col-md-3 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Terms of service</a></li>
-                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="/docs">Downloads</a></li>
+                                <li><a href="#ls">Literiture Survey</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
                             </ul>
                         </div>
 
                         <div class="col-lg-2 col-md-3 footer-links">
-                            <h4>Our Services</h4>
+                            <h4>Our Goals..</h4>
                             <ul>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">Product Management</a></li>
+                                <li><a href="#">Introduce the Research</a></li>
+                                <li><a href="#">Documentations</a></li>
+                                <li><a href="#">Acadamic based</a></li>
                                 <li><a href="#">Marketing</a></li>
-                                <li><a href="#">Graphic Design</a></li>
+                                <li><a href="#">Acknowledgement</a></li>
                             </ul>
                         </div>
 
-                        <div class="col-lg-4 col-md-12 footer-newsletter">
-                            <h4>Our Newsletter</h4>
-                            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-                            <form action="forms/newsletter.php" method="post" class="php-email-form">
-                                <div class="newsletter-form">
-                                    <input type="email" name="email"></input>
-                                    <input type="submit" value="Subscribe"></input>
-                                </div>
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-                            </form>
-                        </div>
+                        {/* <div class="col-lg-2 col-md-3 footer-links">
+                            <img src={logo} alt="" />
+                        </div> */}
+                    </div>
                 </div>
-            </div>
 
-            <div class="container copyright text-center mt-4">
-                <p>© <span>Copyright</span> <strong class="px-1 sitename">QuickStart</strong><span>All Rights Reserved</span></p>
-                <div class="credits">
+                <div class="container copyright text-center">
+                    <p>© <span>Copyright</span> <strong class="px-1 sitename">MeloWave</strong><span>All Rights Reserved</span></p>
+                    <div class="credits">
 
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        Designed by <b>TMP - 2024 - 23 - 065</b>
+                    </div>
                 </div>
-            </div>
 
-        </footer >
+            </footer >
         </>
     );
 }

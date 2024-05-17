@@ -33,17 +33,17 @@ function Home() {
                         <ul>
                             <li><a href="/" class="">Home</a></li>
                             <li><a href="index.html#about">About</a></li>
-                            <li><a href="index.html#features">Milestones</a></li>
+                            {/* <li><a href="index.html#features">Milestones</a></li> */}
                             <li class="dropdown"><a href="#"><span>Downloads</span></a>
                             </li>
                             <li class="dropdown"><a href="#"><span>Project Scope</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                     <li><a href="#ls">Literiture Survey</a></li>
                                     <li><a href="#researchGap">Research Gap</a></li>
-                                    <li><a href="#researchProblem">Research Problem</a></li>
                                     <li><a href="#objectives">Research Objectives</a></li>
-                                    <li><a href="#">Methodology</a></li>
-                                    <li><a href="#">Tools and Technologies</a></li>
+                                    <li><a href="#researchProblem">Research Problem</a></li>
+                                    {/* <li><a href="#">Methodology</a></li> */}
+                                    <li><a href="#tools">Tools and Technologies</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -342,7 +342,7 @@ function Home() {
                             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <p>info@sliit.lk</p>
                             </div>
                         </div>
 
