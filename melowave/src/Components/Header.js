@@ -21,11 +21,8 @@ function Header() {
                             <li><a href="/" class="">Home</a></li>
                             <li><a href="index.html#about">About</a></li>
                             <li><a href="index.html#features">Milestones</a></li>
-                            <li class="dropdown"><a href="#"><span>Downloads</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Reports</a></li>
-                                    <li><a href="#">Presentation Slides</a></li>
-                                </ul>
+                            <li class="dropdown"><a href="/docs"><span>Downloads</span></a>
+                   
                             </li>
                             <li class="dropdown"><a href="#"><span>Project Scope</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>

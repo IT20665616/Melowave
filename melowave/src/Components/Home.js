@@ -34,11 +34,7 @@ function Home() {
                             <li><a href="/" class="">Home</a></li>
                             <li><a href="index.html#about">About</a></li>
                             <li><a href="index.html#features">Milestones</a></li>
-                            <li class="dropdown"><a href="#"><span>Downloads</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Reports</a></li>
-                                    <li><a href="#">Presentation Slides</a></li>
-                                </ul>
+                            <li class="dropdown"><a href="#"><span>Downloads</span></a>
                             </li>
                             <li class="dropdown"><a href="#"><span>Project Scope</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
@@ -133,8 +129,7 @@ function Home() {
                     <div class="row g-5">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-item item-cyan position-relative">
-                                <i class="fa-solid fa-user icon"></i>
-                                {/* <i class="bi bi-activity icon"></i> */}
+                                <i class="bi bi-person-check-fill icon"></i>
                                 <div>
                                     <h3>Predict user profile using a selfie.</h3>
                                     <p>
@@ -148,7 +143,7 @@ function Home() {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-item item-orange position-relative">
-                                <i class="bi bi-broadcast icon"></i>
+                                <i class="bi bi-cloud-drizzle-fill icon"></i>
                                 <div>
                                     <h3>Predict user’s current outside weather.</h3>
                                     <p>
@@ -163,7 +158,7 @@ function Home() {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-item item-teal position-relative">
-                                <i class="bi bi-activity icon"></i>
+                                <i class="bi bi-mic-fill icon"></i>
                                 <div>
                                     <h3>Detect user’s emotion using a voice clip.</h3>
                                     <p>
@@ -178,7 +173,7 @@ function Home() {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-item item-red position-relative">
-                                <i class="bi bi-bounding-box-circles icon"></i>
+                                <i class="bi bi-arrows-angle-contract icon"></i>
                                 <div>
                                     <h3>Assessing the effect on user’s emption from the recommended playlist.</h3>
                                     <p>
@@ -213,27 +208,27 @@ function Home() {
                             </p>
                             <div class="row">
                                 <div class="col-lg-12 icon-box d-flex">
-                                    <i class="bi bi-easel flex-shrink-0"></i>
+                                    <i class="bi bi-person flex-shrink-0"></i>
                                     <div>
                                         <h4>1.  Predicting a user profile using a selfie</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 icon-box d-flex">
-                                    <i class="bi bi-patch-check flex-shrink-0"></i>
+                                    <i class="bi bi-brightness-high flex-shrink-0"></i>
                                     <div>
                                         <h4>2.	Predicting indoor/outdoor and the current weather by using a photo.</h4>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 icon-box d-flex">
-                                    <i class="bi bi-brightness-high flex-shrink-0"></i>
+                                    <i class="bi bi-mic flex-shrink-0"></i>
                                     <div>
                                         <h4>3.	Predicting user emotions by a voice emotion.</h4>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 icon-box d-flex">
-                                    <i class="bi bi-brightness-high flex-shrink-0"></i>
+                                    <i class="bi bi-patch-check flex-shrink-0"></i>
                                     <div>
                                         <h4>4.	Assessing user’s post emotions.</h4>
                                     </div>
@@ -330,7 +325,7 @@ function Home() {
                             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                                 <i class="bi bi-geo-alt"></i>
                                 <h3>Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>SLIIT Malabe Campus, New Kandy Rd, Malabe 10115</p>
                             </div>
                         </div>
 
@@ -338,7 +333,8 @@ function Home() {
                             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>+94 11 754 4801</p>
+                                <p>+94 11 241 3901</p>
                             </div>
                         </div>
 

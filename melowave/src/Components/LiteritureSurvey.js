@@ -74,7 +74,7 @@ function LiteritureSurvey() {
                         </ol>
                     </p>
 
-                    <a href="/" class="back-button"><span>Back</span><i class="bi bi-arrow-right"></i></a>
+                    <a href="/" class="back-button"><i class="bi bi-arrow-left"></i><span>Back</span></a>
                 </div>
 
             </section>
