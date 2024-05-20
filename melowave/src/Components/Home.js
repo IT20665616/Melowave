@@ -314,7 +314,7 @@ function Home() {
 
                 <div class="container section-title" data-aos="fade-up">
                     <h2>Contact</h2>
-                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                    <p>Do not hesitate to contact us for any further inquiry....</p>
                 </div>
 
                 <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -350,7 +350,7 @@ function Home() {
 
                     <div class="row gy-4 mt-1">
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style={{ border: 0, width: '100%', height: '400px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.291003589333!2d79.95734291610257!3d6.914763295000634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250b18d23b8db%3A0xf82db470a0c7d2ec!2sSri%20Lanka%20Institute%20of%20Information%20Technology%20(SLIIT)!5e0!3m2!1sen!2slk!4v1684491203873!5m2!1sen!2slk" frameborder="0" style={{ border: 0, width: '100%', height: '400px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                         <div class="col-lg-6">

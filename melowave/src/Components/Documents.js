@@ -114,6 +114,16 @@ function Documents() {
                             </div>
                         </div>
 
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-item item-cyan position-relative">
+                                <i class="bi bi-files icon"></i>
+                                <div>
+                                    <h3>Final Presentation</h3>
+                                    <a href={finalReport} class="read-more stretched-link">Download<i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                     <br /><br />
