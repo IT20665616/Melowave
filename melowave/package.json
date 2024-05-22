@@ -1,9 +1,8 @@
 {
-<<<<<<< HEAD
-=======
   "name": "melowave",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://it20665616.github.io/Melowave_Website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -23,10 +22,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
-  "homepage": "https://it20665616.github.io/Melowave_Website",
-
-  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -45,7 +40,6 @@
       "last 1 safari version"
     ]
   },
->>>>>>> d2174e6b (Revert "modifications")
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
